@@ -21,7 +21,7 @@ tell you up front:
 Every entry carries the date someone last checked that the posting was live.
 
 <!-- BEGIN JOBS -->
-*15 open roles. Table generated from `data/jobs.yml` on 2026-10-26.*
+*17 open roles. Table generated from `data/jobs.yml` on 2026-10-26.*
 
 | Company | Role | Location | Remote | Proof stack | Domain | Seniority | Last verified |
 |---|---|---|---|---|---|---|---|
@@ -36,6 +36,8 @@ Every entry carries the date someone last checked that the posting was live.
 | Harmonic | [Research Engineer, Formal Methods](https://jobs.ashbyhq.com/harmonic/74f2ed85-b1cc-40b1-825d-fefd2fcf557c) | Palo Alto, CA | On-site | Lean, Rocq, Isabelle, Agda, Python | AI for mathematics, theorem proving | Research engineer | 2026-10-26 |
 | Imandra | [Open applications — R&D (automated reasoning)](https://apply.workable.com/imandra/) | Edinburgh / London / Bristol / Austin | Remote | OCaml, SMT, automated reasoning | finance, automated reasoning | Various | 2026-10-26 |
 | Jane Street | [Formal Methods Engineer](https://www.janestreet.com/join-jane-street/apply/8588405002) | London, UK (also New York) | On-site | proof assistants, static analysis, refinement types, property-based testing | finance, AI-assisted programming | Engineer | 2026-10-26 |
+| Oath Technologies | [Formal Methods Research Engineer](https://jobs.lever.co/convergentresearch/87a70993-3dbd-480a-9fe2-221628639f07) | Berkeley, CA | On-site | Lean, Coq, Isabelle, SMT | AI safety, AI oversight | Research engineer | 2026-10-26 |
+| Oath Technologies | [Research Engineer, Tools & Infrastructure](https://jobs.lever.co/convergentresearch/a2e56f3e-09b0-402e-9566-6c7b235759d0) | Berkeley, CA | On-site | developer tooling, language servers, agent scaffolding | AI safety, developer tools | Research engineer | 2026-10-26 |
 | Quantinuum | [Advanced Quantum Compiler Engineer (925)](https://jobs.eu.lever.co/quantinuum/1e52f038-a161-4276-ab8f-5c0b9c2fc28e) | Broomfield, CO | Hybrid | LLVM, MLIR, QIR, Rust, C++ | quantum, compilers | Engineer | 2026-10-26 |
 | Runtime Verification | [Open applications — verification engineering (K framework)](https://runtimeverification.com/careers) | Urbana, IL — remote friendly | Remote | K framework, executable semantics | blockchain, language semantics | Various | 2026-10-26 |
 | Theorem (Theorem Labs) | [ML research engineer / research scientist / SWE / research fellow](https://theorem.dev/careers/) | San Francisco, CA | On-site | Lean, Rocq | AI for program verification | Various | 2026-10-26 |

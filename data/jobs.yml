@@ -133,6 +133,34 @@
   notes: New team; no OCaml or functional programming experience required.
   last_verified: 2026-10-26
 
+- company: Oath Technologies
+  role: Formal Methods Research Engineer
+  url: https://jobs.lever.co/convergentresearch/87a70993-3dbd-480a-9fe2-221628639f07
+  location: Berkeley, CA
+  remote: onsite
+  stack: [Lean, Coq, Isabelle, SMT]
+  domain: [AI safety, AI oversight]
+  seniority: research-engineer
+  notes: >-
+    Formal methods tooling for AI oversight, starting with verified agent
+    containment. Wants direct proof-assistant or SMT experience, plus PL theory
+    or a record of moving formal methods into deployed systems. Hiring runs
+    through Convergent Research's board.
+  last_verified: 2026-10-26
+
+- company: Oath Technologies
+  role: Research Engineer, Tools & Infrastructure
+  url: https://jobs.lever.co/convergentresearch/a2e56f3e-09b0-402e-9566-6c7b235759d0
+  location: Berkeley, CA
+  remote: onsite
+  stack: [developer tooling, language servers, agent scaffolding]
+  domain: [AI safety, developer tools]
+  seniority: research-engineer
+  notes: >-
+    IDE integrations, language servers, CLI and build-system work for formal
+    methods tools. Prior formal methods depth is explicitly not required.
+  last_verified: 2026-10-26
+
 - company: Quantinuum
   role: Advanced Quantum Compiler Engineer (925)
   url: https://jobs.eu.lever.co/quantinuum/1e52f038-a161-4276-ab8f-5c0b9c2fc28e

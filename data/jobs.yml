@@ -1,0 +1,179 @@
+# FVjobs — open roles in formal verification.
+#
+# One entry per role. Required fields: company, role, url, location, remote,
+# stack, domain, seniority, last_verified. Optional: work_authorization,
+# compensation, notes.
+#
+# Keep entries sorted by company. Run `python3 scripts/validate.py` and
+# `python3 scripts/render.py` before opening a pull request.
+
+- company: Access Softek Toolchains
+  role: Compiler Developer (LLVM, C++)
+  url: https://jobs.lever.co/accesssoftek/55497b30-5fbc-4fda-81ce-91752ae1599a
+  location: Anywhere
+  remote: remote-worldwide
+  stack: [LLVM, Clang, C++]
+  domain: [compilers, toolchains]
+  seniority: engineer
+  work_authorization: No restriction stated; "work from anywhere in the world"
+  last_verified: 2026-10-26
+
+- company: Amazon Web Services
+  role: Applied Scientist, Automated Reasoning
+  url: https://www.amazon.jobs/en/jobs/10502706/applied-scientist-automated-reasoning
+  location: Multiple US cities
+  remote: onsite
+  stack: [Lean, Rocq, Dafny, Isabelle, SMT]
+  domain: [cloud, cryptography, AI safety]
+  seniority: research-scientist
+  work_authorization: US-based; sponsorship not stated
+  compensation: USD 167,100–260,000 depending on location
+  notes: Requires a PhD or equivalent research experience.
+  last_verified: 2026-10-26
+
+- company: Beneficial AI Foundation
+  role: AI Safety Research Scientist / Research Engineer (formal verification)
+  url: https://www.beneficialaifoundation.org/jobs
+  location: Anywhere
+  remote: remote-worldwide
+  stack: [Lean, Verus, Rust]
+  domain: [AI safety, cryptography]
+  seniority: any
+  compensation: USD 30–75/hour depending on role
+  notes: >-
+    Max Tegmark's foundation. Verifies production cryptographic Rust in Lean
+    (curve25519-dalek, Signal protocols) — see github.com/Beneficial-AI-Foundation.
+  last_verified: 2026-10-26
+
+- company: CertiK
+  role: Software Engineer (III to Principal), Formal Methods
+  url: https://jobs.lever.co/certik/f8fbe497-34d2-49fa-9308-879f0ffd8fa8
+  location: New York / Seattle / SF Bay Area / Remote
+  remote: remote
+  stack: [SMT, model checking, OCaml, Haskell]
+  domain: [blockchain, smart contracts]
+  seniority: engineer
+  compensation: USD 115,000–230,000 (US)
+  notes: Wants model checking (BMC, CEGAR, IC3/PDR); publications at POPL/CAV/TACAS preferred.
+  last_verified: 2026-10-26
+
+- company: Code Metal
+  role: Research Engineer — Formal Methods
+  url: https://jobs.ashbyhq.com/code-metal/550aed7b-86d2-48c3-af27-e61671e2d493
+  location: Boston, MA
+  remote: hybrid
+  stack: [theorem proving, SMT, program synthesis, static analysis]
+  domain: [compilers, embedded]
+  seniority: research-engineer
+  compensation: USD 180,000–266,800 plus equity
+  work_authorization: US Top Secret clearance eligibility listed as required
+  last_verified: 2026-10-26
+
+- company: Cryspen
+  role: Open applications (Rust verification, hax)
+  url: https://cryspen.com/jobs
+  location: France / Germany
+  remote: hybrid
+  stack: [hax, Rust, F*]
+  domain: [cryptography]
+  seniority: any
+  notes: No individual postings listed; speculative applications via info@cryspen.com.
+  last_verified: 2026-10-26
+
+- company: eleQtron
+  role: Compiler Engineer (m/w/d)
+  url: https://eleqtron.com/en/jobs/compiler-engineer-m-w-d/
+  location: Hamburg or Siegen, Germany
+  remote: onsite
+  stack: [LLVM, MLIR, QIR, C++, Rust]
+  domain: [quantum, compilers]
+  seniority: engineer
+  work_authorization: Relocation support offered; EU Blue Card route for non-EU candidates
+  last_verified: 2026-10-26
+
+- company: Harmonic
+  role: Formal Verification Engineer (Aristotle)
+  url: https://jobs.ashbyhq.com/harmonic/5e759f93-e90c-43a9-8c88-af25428237ca
+  location: Palo Alto, CA
+  remote: onsite
+  stack: [Lean]
+  domain: [AI for mathematics, hardware, software verification]
+  seniority: engineer
+  notes: Customer-facing; scope properties, run proofs with Aristotle, diagnose failures.
+  last_verified: 2026-10-26
+
+- company: Harmonic
+  role: Research Engineer, Formal Methods
+  url: https://jobs.ashbyhq.com/harmonic/74f2ed85-b1cc-40b1-825d-fefd2fcf557c
+  location: Palo Alto, CA
+  remote: onsite
+  stack: [Lean, Rocq, Isabelle, Agda, Python]
+  domain: [AI for mathematics, theorem proving]
+  seniority: research-engineer
+  last_verified: 2026-10-26
+
+- company: Imandra
+  role: Open applications — R&D (automated reasoning)
+  url: https://apply.workable.com/imandra/
+  location: Edinburgh / London / Bristol / Austin
+  remote: remote
+  stack: [OCaml, SMT, automated reasoning]
+  domain: [finance, automated reasoning]
+  seniority: any
+  last_verified: 2026-10-26
+
+- company: Jane Street
+  role: Formal Methods Engineer
+  url: https://www.janestreet.com/join-jane-street/apply/8588405002
+  location: London, UK (also New York)
+  remote: onsite
+  stack: [proof assistants, static analysis, refinement types, property-based testing]
+  domain: [finance, AI-assisted programming]
+  seniority: engineer
+  notes: New team; no OCaml or functional programming experience required.
+  last_verified: 2026-10-26
+
+- company: Quantinuum
+  role: Advanced Quantum Compiler Engineer (925)
+  url: https://jobs.eu.lever.co/quantinuum/1e52f038-a161-4276-ab8f-5c0b9c2fc28e
+  location: Broomfield, CO
+  remote: hybrid
+  stack: [LLVM, MLIR, QIR, Rust, C++]
+  domain: [quantum, compilers]
+  seniority: engineer
+  work_authorization: "US Person required (citizen, green card, refugee or asylee)"
+  compensation: USD 138,000–173,000
+  last_verified: 2026-10-26
+
+- company: Runtime Verification
+  role: Open applications — verification engineering (K framework)
+  url: https://runtimeverification.com/careers
+  location: Urbana, IL — remote friendly
+  remote: remote
+  stack: [K framework, executable semantics]
+  domain: [blockchain, language semantics]
+  seniority: any
+  last_verified: 2026-10-26
+
+- company: Theorem (Theorem Labs)
+  role: ML research engineer / research scientist / SWE / research fellow
+  url: https://theorem.dev/careers/
+  location: San Francisco, CA
+  remote: onsite
+  stack: [Lean, Rocq]
+  domain: [AI for program verification]
+  seniority: any
+  compensation: USD 200,000–500,000 plus equity; fellowship USD 125,000/yr pro rata
+  notes: Built lf-lean, an AI-assisted verified Rocq-to-Lean translation.
+  last_verified: 2026-10-26
+
+- company: Veridise
+  role: Formal Methods Researcher for ZK
+  url: https://veridise.com/careers/formal-methods-researcher-for-zk/
+  location: Flexible
+  remote: remote
+  stack: [Lean, Rocq, ACL2, SMT, Rust, C++]
+  domain: [zero-knowledge, blockchain security]
+  seniority: research-scientist
+  notes: PhD or equivalent professional research experience requested.
+  last_verified: 2026-10-26

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FVjobs entry list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["company", "role", "url", "location", "remote", "stack", "domain", "seniority", "last_verified"],
+    "properties": {
+      "company":  { "type": "string", "minLength": 1 },
+      "role":     { "type": "string", "minLength": 1 },
+      "url":      { "type": "string", "pattern": "^https://" },
+      "location": { "type": "string", "minLength": 1 },
+      "remote": {
+        "type": "string",
+        "enum": ["onsite", "hybrid", "remote", "remote-worldwide"],
+        "description": "remote = remote within a stated region; remote-worldwide = no location restriction stated"
+      },
+      "stack": {
+        "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 },
+        "description": "Proof assistants, solvers and verification tools named by the posting"
+      },
+      "domain": {
+        "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }
+      },
+      "seniority": {
+        "type": "string",
+        "enum": ["intern", "phd", "postdoc", "engineer", "research-engineer", "research-scientist", "senior", "principal", "lead", "any"]
+      },
+      "last_verified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+      "closed":        { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+      "work_authorization": { "type": "string" },
+      "compensation":       { "type": "string" },
+      "notes":              { "type": "string" }
+    }
+  }
+}

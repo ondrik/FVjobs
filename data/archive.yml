@@ -1,0 +1,18 @@
+# Roles that were on the board and have closed. Kept because "this company
+# hired for Lean work six months ago" is useful even when the posting is gone.
+# Same fields as jobs.yml, plus `closed` (the date it was found to be gone).
+
+- company: Google DeepMind
+  role: Research Scientist, Verified Code Generation
+  url: https://www.google.com/about/careers/applications/jobs/results/138630831110267590-research-scientist-verified-code-generation-deepmind
+  location: Mountain View, CA / London, UK
+  remote: onsite
+  stack: [Lean]
+  domain: [AI for code, program verification]
+  seniority: research-scientist
+  compensation: USD 174,000–252,000 plus 15% bonus and equity
+  notes: >-
+    Formalizing C/C++ semantics in Lean, verified static analyses, and AI-driven
+    proof search. Both posting IDs returned "job not found" on 2026-10-26.
+  last_verified: 2026-09-25
+  closed: 2026-10-26

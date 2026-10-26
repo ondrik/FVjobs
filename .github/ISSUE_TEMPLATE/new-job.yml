@@ -1,0 +1,107 @@
+name: Add a job
+description: Submit an open formal verification role for the board
+title: "[job] Company — Role"
+labels: ["new job"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding to the board. Everything here comes straight from the
+        posting — please do not add estimates or private contact details.
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Harmonic
+    validations: { required: true }
+  - type: input
+    id: role
+    attributes:
+      label: Role title
+      description: As the posting words it
+      placeholder: Formal Verification Engineer
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes:
+      label: Link to the posting
+      description: The posting itself where one exists, otherwise the careers page
+      placeholder: https://…
+    validations: { required: true }
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: As stated. Use "Anywhere" if genuinely unrestricted
+      placeholder: Palo Alto, CA
+    validations: { required: true }
+  - type: dropdown
+    id: remote
+    attributes:
+      label: Remote
+      options:
+        - onsite
+        - hybrid
+        - remote (within a stated region)
+        - remote-worldwide
+    validations: { required: true }
+  - type: input
+    id: stack
+    attributes:
+      label: Proof stack
+      description: Comma-separated verification tools the posting names
+      placeholder: Lean, SMT
+    validations: { required: true }
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: Comma-separated
+      placeholder: hardware, cryptography
+    validations: { required: true }
+  - type: dropdown
+    id: seniority
+    attributes:
+      label: Seniority
+      options:
+        - intern
+        - phd
+        - postdoc
+        - engineer
+        - research-engineer
+        - research-scientist
+        - senior
+        - principal
+        - lead
+        - any
+    validations: { required: true }
+  - type: input
+    id: work_authorization
+    attributes:
+      label: Work authorization restrictions
+      description: >-
+        The most useful field on the board. Export-control clauses, visa
+        sponsorship, region limits. Leave blank if the posting says nothing.
+      placeholder: US Person required (citizen, green card, refugee or asylee)
+  - type: input
+    id: compensation
+    attributes:
+      label: Published compensation
+      description: Only figures the employer published. No third-party estimates.
+      placeholder: USD 138,000–173,000
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: One or two factual sentences of useful context
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I checked today that this posting is live
+          required: true
+        - label: This role's core work is formal verification or directly supports it
+          required: true
+        - label: I have not included anyone's private contact details
+          required: true

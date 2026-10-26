@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  pull_request:
+    paths: ["data/**", "scripts/**", "README.md", ".github/workflows/ci.yml"]
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/**", "README.md"]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml jsonschema
+      - name: Validate the data
+        run: python3 scripts/validate.py
+      - name: Check the README table is up to date
+        run: python3 scripts/render.py --check

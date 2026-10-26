@@ -1,0 +1,24 @@
+name: Report a closed or changed job
+description: Tell us a posting has gone, moved, or changed its details
+title: "[stale] Company — Role"
+labels: ["stale"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: The posting's URL as listed on the board
+    validations: { required: true }
+  - type: dropdown
+    id: what
+    attributes:
+      label: What happened
+      options:
+        - The posting is gone
+        - The link moved
+        - Details on the board are wrong or out of date
+    validations: { required: true }
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: New link, corrected field, or how you checked

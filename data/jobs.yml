@@ -9,6 +9,25 @@
 # `python3 scripts/validate.py --assign-ids`, which numbers it and validates
 # the file. Never change or reuse an id.
 
+- id: FV-148
+  company: '&Truth'
+  role: Open applications (formal verification, Lean)
+  category: software
+  url: https://jobs.ashbyhq.com/andtruth/163588d2-05f9-4f90-aefe-c8c5778e3a40
+  location: Palo Alto, CA / Singapore
+  remote: onsite
+  stack: [Lean, theorem proving, formal verification, programming languages]
+  domain: [software verification, security, AI safety]
+  seniority: any
+  notes: >-
+    A public benefit corporation building technology to prove code in any
+    language safe, secure and correct, with independently checkable proofs. A
+    general application rather than a specific opening: the careers page names
+    formal verification, theorem proving, programming languages and Lean as the
+    foundation, alongside product, forward-deployed and go-to-market roles.
+  posted: '2026-10-27'
+  last_verified: 2026-10-29
+
 - id: FV-001
   company: Access Softek Toolchains
   role: Compiler Developer (LLVM, C++)
